@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 800px) {
+  /* Navigation responsive */
+  nav .img {
+    width: 140px;
+  }
+  /* Home responsive */
+  main .presentation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    text-align: center;
+  }
+  .presentation .phrase {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .presentation .phrase h1 {
+    font-size: 50px;
+  }
+
+  /* About responsive */
+  .container-video-colums .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-video-colums .about-container {
+    grid-template-columns: auto auto;
+  }
+  .video-container iframe {
+    width: 560px;
+    height: 315px;
+  }
+
+  /* Services container */
+  .options .options-container {
+    grid-template-columns: auto auto;
+  }
+  /* Form responsive */
+  .date-form {
+    flex-direction: column;
+  }
+  .date-form .img-form img {
+    border-radius: 100px 100px 0 0;
+    height: 300px;
+    width: 450px;
+    margin-top: 3px;
+    border-bottom: none;
+    border-right: 1px solid;
+  }
+  .date-form .data {
+    height: 650px;
+    border-radius: 0 0 100px 100px;
+    border-top: none;
+    border-left: 1px solid;
+  }
+
+  /* Footer responsive */
+  #footer {
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 600px) {
+  nav .img {
+    width: 120px;
+  }
+  /* Home responsive */
+  main .presentation {
+    text-align: center;
+    gap: 30px;
+  }
+  .presentation .phrase {
+    width: 300px;
+  }
+  .presentation img {
+    width: 330px;
+  }
+  .presentation .phrase h1 {
+    font-size: 50px;
+  }
+  .presentation .phrase p {
+    font-size: 24px;
+  }
+
+  /* About responsive */
+  .video-container iframe {
+    width: 360px;
+    height: 215px;
+  }
+
+  /* Services container */
+  .options .options-container {
+    grid-template-columns: auto auto;
+    gap: 40px;
+  }
+  .options .options-h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .options .option {
+    width: 180px;
+    height: 180px;
+  }
+  .options .options-container img {
+    width: 100px;
+  }
+  .options .option h3 {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Form responsive */
+  .date-form .img-form img {
+    height: 250px;
+    width: 400px;
+    margin-top: 6px;
+  }
+  .date-form .data {
+    width: 400px;
+    height: 650px;
+  }
+  .date-form .data .formkit-help {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .data {
+    text-align: center;
+  }
+  .date-form .data .formkit-message {
+    padding-left: 55px;
+  }
+  .data .formkit-inner {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /* Footer responsive */
+  #footer {
+    gap: 5px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 435px) {
+  nav .img {
+    width: 120px;
+  }
+  /* Home responsive */
+  main .presentation {
+    gap: 30px;
+  }
+  .presentation .phrase {
+    width: 200px;
+    gap: 20px;
+  }
+  .presentation img {
+    width: 250px;
+  }
+  .presentation .phrase h1 {
+    font-size: 30px;
+  }
+  .presentation .phrase p {
+    font-size: 15px;
+  }
+
+  /* About responsive */
+  .container-video-colums .about-container {
+    grid-template-columns: auto;
+  }
+  .container-video-colums .title {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .video-container iframe {
+    width: 260px;
+    height: 160px;
+  }
+
+  /* Services container */
+  .options .options-h2 {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .options .option {
+    width: 120px;
+    height: 120px;
+  }
+  .options .options-container img {
+    width: 40px;
+  }
+  .options .option h3 {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Form responsive */
+  .atention h2 {
+    font-size: 30px;
+  }
+  .atention p {
+    font-size: 20px;
+  }
+  .date-form .img-form img {
+    height: 150px;
+    width: 300px;
+    margin-top: 6px;
+  }
+  .date-form .data {
+    width: 300px;
+    height: 650px;
+  }
+  .date-form .data .formkit-help {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .data .formkit-inner {
+    width: 240px;
+    height: 35px;
+  }
+
+  /* Footer responsive */
+  #footer {
+    gap: 20px;
+    font-size: 12px;
+    grid-template-columns: auto;
+  }
+  #footer button {
+    width: 100px;
+    font-size: 15px;
+  }
+}

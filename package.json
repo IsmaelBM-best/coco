@@ -1,0 +1,23 @@
+{
+  "name": "vue-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formkit/themes": "^0.17.2",
+    "@formkit/vue": "^0.17.2",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "scss": "^0.2.4",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.9"
+  }
+}
