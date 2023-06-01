@@ -1,6 +1,6 @@
 <template>
     <div  class="form-img">
-        <router-link to="/"><a href=""><img src="../assets/Recurso 61.svg" alt=""></a></router-link>
+        <router-link to="/"><a href=""><img src="../assets/recurso-61.svg" alt=""></a></router-link>
     </div>
     <div class="atention">
         <h2>Atencion</h2>
